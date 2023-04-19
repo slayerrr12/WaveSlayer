@@ -8,7 +8,7 @@ import speech_recognition as sr
 import openai
 
 # Set up the OpenAI API credentials
-openai.api_key = "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"
+openai.api_key = "Your_Open_ai_key"
 
 # Initialize the text to speech engine 
 engine=pyttsx3.init()
