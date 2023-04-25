@@ -1,0 +1,10 @@
+2023-04-25 18:07:00 User: hello
+2023-04-25 18:07:00 AI:  Hi there!
+2023-04-25 18:07:16 User: what can you do for me
+2023-04-25 18:07:16 AI:  I can help you with a variety of tasks, from making calculations to providing information about a variety of topics. I can also help you with tasks like scheduling, organizing, and managing your time.
+2023-04-25 18:07:46 User: write 100 word essay on humanity
+2023-04-25 18:07:46 AI: 
+
+Humanity is a complex concept that has been debated by philosophers and theologians for centuries. It encompasses a wide range of attributes, from compassion and kindness to empathy and understanding. Humanity is the recognition of the inherent value of all people, regardless of race, gender, religion, or any other social construct. It is the belief that all humans should be treated with respect and dignity, and that everyone deserves a chance to pursue their own dreams and aspirations. Humanity is also about recognizing our shared humanity, and understanding that we are all connected in some way. It is a recognition of our shared responsibility to care for each other, our planet, and our future. Humanity is an ideal that should be strived for, and it is something that we all must strive to cultivate in our lives.
+2023-04-25 18:08:51 User: tell me about MIT Gwalior
+2023-04-25 18:08:51 AI:  The MIT Group of Institutions, Gwalior is a private educational institute in Gwalior, Madhya Pradesh, India. It was established in 1998 by the Madhya Pradesh Government. It is affiliated to Rajiv Gandhi Proudyogiki Vishwavidyalaya, Bhopal and is accredited by the All India Council for Technical Education. The institute offers various undergraduate, postgraduate and doctoral courses in engineering, management, and other disciplines. The institute also provides various facilities for the students such as hostel, library, sports, and other amenities.
