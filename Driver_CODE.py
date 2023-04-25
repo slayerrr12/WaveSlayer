@@ -3,16 +3,22 @@ from tkinter import Text, Button
 
 import pyttsx3
 import speech_recognition as sr
-
+import datetime
 
 import openai
-
+conversation_file = open("conversation.txt", "a")
 # Set up the OpenAI API credentials
-openai.api_key = "Your_Open_ai_key"
+openai.api_key = "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"
 
 # Initialize the text to speech engine 
 engine=pyttsx3.init()
 
+def get_timestamp():
+    """
+    Returns the current date and time as a formatted string.
+    """
+    now = datetime.datetime.now()
+    return now.strftime("%Y-%m-%d %H:%M:%S")
 
 def record_audio():
     """
@@ -31,9 +37,19 @@ def record_audio():
     except sr.RequestError as e:
         print(f"Could not request results; {e}")
         return None
+
+def save_conversation(user_input, ai_response, conversation_file):
+    """
+    Saves the conversation to a file.
+    """
+    timestamp = get_timestamp()
+    conversation_file.write(f"{timestamp} User: {user_input}\n")
+    conversation_file.write(f"{timestamp} AI: {ai_response}\n")
+
 def speak_text(text):
     engine.say(text)
     engine.runAndWait()
+
 def generate_response(prompt):
     """
     Generates a response using OpenAI API and returns it.
@@ -61,6 +77,9 @@ def assistant():
     else:
         response = "Sorry, I didn't hear you."
     
+    # save conversation to file
+    save_conversation(text, response, conversation_file)
+    
     # display response in text box
     response_text.insert(tk.END, response + "\n")
 
@@ -80,3 +99,5 @@ button = Button(root, text="Speak", command=assistant)
 button.pack()
 
 root.mainloop()
+
+conversation_file.close()
