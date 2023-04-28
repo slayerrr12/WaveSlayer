@@ -23,22 +23,11 @@ pip install mysql-connector-python
 To start the chatbot, simply run the `chatbot.py` script using Python:
 
 ```
-python chatbot.py
+python DRIVER_CODE.py
 ```
 
 Once the chatbot is running, you can start a conversation by typing in your message and pressing Enter. The chatbot will generate a response based on the message you have provided.
 
-
-
-## Customization
-
-If you want to customize the chatbot to better fit your needs, you can modify the `intents.json` file. This file contains the training data for the language model, and defines the various intents that the chatbot can recognize.
-
-You can add new intents or modify existing ones by editing this file. Once you have made changes to the `intents.json` file, you will need to retrain the language model by running the `train_chatbot.py` script:
-
-```
-python train_chatbot.py
-```
 
 This will generate a new set of model files that the chatbot will use to generate responses.
 
