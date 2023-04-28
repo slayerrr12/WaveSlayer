@@ -4,10 +4,7 @@ This is a simple AI chatbot project built using Python and natural language proc
 
 ## Requirements
 
-To run this chatbot, you will need to have Python 3.x installed on your system. You will also need to install the following packages:
-
-- `tensorflow`
-- `nltk`
+To run this chatbot, you will need to have Python 3.x installed on your system. 
 
 You can install these packages using the following command:
 
