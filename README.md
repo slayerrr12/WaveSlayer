@@ -25,6 +25,15 @@ python chatbot.py
 
 Once the chatbot is running, you can start a conversation by typing in your message and pressing Enter. The chatbot will generate a response based on the message you have provided.
 
+Install the required dependencies:
+
+```
+pip install tk
+pip3 install customtkinter
+pip install pillow
+pip install mysql-connector-python
+```
+
 ## Customization
 
 If you want to customize the chatbot to better fit your needs, you can modify the `intents.json` file. This file contains the training data for the language model, and defines the various intents that the chatbot can recognize.
