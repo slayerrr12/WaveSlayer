@@ -6,6 +6,18 @@ This is a simple AI chatbot project built using Python and natural language proc
 
 To run this chatbot, you will need to have Python 3.x installed on your system. 
 
+
+
+## Install the required dependencies:
+
+```
+pip install tk
+pip3 install customtkinter
+pip install pillow
+pip install mysql-connector-python
+```
+
+
 ## Usage
 
 To start the chatbot, simply run the `chatbot.py` script using Python:
@@ -16,14 +28,7 @@ python chatbot.py
 
 Once the chatbot is running, you can start a conversation by typing in your message and pressing Enter. The chatbot will generate a response based on the message you have provided.
 
-Install the required dependencies:
 
-```
-pip install tk
-pip3 install customtkinter
-pip install pillow
-pip install mysql-connector-python
-```
 
 ## Customization
 
