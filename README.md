@@ -12,9 +12,10 @@ To run this chatbot, you will need to have Python 3.x installed on your system.
 
 ```
 pip install tk
-pip3 install customtkinter
-pip install pillow
-pip install mysql-connector-python
+pip3 install pyttsx3
+pip install speech_recognition
+pip install datetime
+
 ```
 
 
