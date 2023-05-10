@@ -1,4 +1,4 @@
-# AI-CHATBOT
+# WaveSlayer
 
 This is a simple AI chatbot project built using Python and natural language processing techniques. The chatbot uses a pre-trained language model to understand and generate responses to user input.
 
