@@ -8,7 +8,7 @@ import datetime
 import openai
 conversation_file = open("conversation.txt", "a")
 # Set up the OpenAI API credentials
-openai.api_key = "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"
+openai.api_key = YOUR_OPEN_AI_KEY
 
 # Initialize the text to speech engine 
 engine=pyttsx3.init()
